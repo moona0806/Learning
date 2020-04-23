@@ -1,0 +1,11 @@
+def sayHello(name, age):
+  if age<10:
+    print("안녕,"+ name)
+  elif age<=30 and age>=10:
+    print("안녕하세요,"+name+"씨")
+  else:
+    print("안녕하십니까,"+name+"님")
+
+sayHello("영주",28)
+sayHello("을규",42)
+sayHello("지영",5)
